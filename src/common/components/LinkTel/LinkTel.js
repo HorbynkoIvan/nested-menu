@@ -1,11 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-interface Props {
-  phone: string;
-}
 
-export const LinkTel = ({ phone }: Props): JSX.Element => (
+export const LinkTel = ({ phone }) => (
   <a
     href={`tel:${phone.replace(/\s+/g, "")}`}
     css={css`

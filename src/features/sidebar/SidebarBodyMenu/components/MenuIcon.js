@@ -1,12 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 
-interface Props {
-  categoryId: number;
-}
-
-export const MenuIcon = ({ categoryId }: Props) => (
+export const MenuIcon = ({ categoryId }) => (
   <div
     css={css`
       max-width: 30px;

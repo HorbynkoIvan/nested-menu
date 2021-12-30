@@ -1,15 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { IconButton } from "@mui/material";
 import { IoMdClose } from "react-icons/io";
-import { Anchor } from "@features/header/HeaderMobile/hooks";
 
-interface Props {
-  toggleDrawer: (anchor: Anchor, open: boolean) => any;
-}
 
-export const SidebarHeaderTop = ({ toggleDrawer }: Props) => (
+export const SidebarHeaderTop = ({ toggleDrawer }) => (
   <div
     css={css`
       display: flex;

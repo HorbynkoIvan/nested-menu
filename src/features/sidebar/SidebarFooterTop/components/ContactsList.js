@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { useContacts } from "@common/hooks/useContacts";
-import { LinkTel } from "@common/components/LinkTel";
+import { useContacts } from "../../../../common/hooks/useContacts";
+import { LinkTel } from "../../../../common/components/LinkTel";
 
 export const ContactsList = () => {
   const { phones } = useContacts();

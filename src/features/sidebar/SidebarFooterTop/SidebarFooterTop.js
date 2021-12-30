@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { ContactsList } from "./components";
-import { Callback } from "@common/components/Callback";
+// import { Callback } from "@common/components/Callback";
 
 export const SidebarFooterTop = () => (
   <div
@@ -16,6 +16,6 @@ export const SidebarFooterTop = () => (
     `}
   >
     <ContactsList />
-    <Callback />
+    {/*<Callback />*/}
   </div>
 );

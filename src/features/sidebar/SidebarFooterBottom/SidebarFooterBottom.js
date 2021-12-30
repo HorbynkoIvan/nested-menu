@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { ChoiceCity, LocaleSwitcher } from "@features/header";
+// import { ChoiceCity, LocaleSwitcher } from "@features/header";
 
 export const SidebarFooterBottom = () => (
   <>
@@ -20,8 +20,8 @@ export const SidebarFooterBottom = () => (
         justify-content: space-between;
       `}
     >
-      <LocaleSwitcher />
-      <ChoiceCity />
+      {/*<LocaleSwitcher />*/}
+      {/*<ChoiceCity />*/}
     </div>
   </>
 );
